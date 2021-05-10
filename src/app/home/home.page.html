@@ -1,20 +1,37 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
+    
+    <div style=" display: flex;
+    flex-direction: row;">
+    <ion-title style="margin: 20px 0px;color:#0AB49F; " *ngIf="!isSearchClicked">
+      Covid Vaccine Notification
+     
     </ion-title>
+    <div *ngIf="isSearchClicked" style="margin: 10px 0px;    width: 84%;">
+      <ion-searchbar  placeholder="Search..." [(ngModel)]="filterTerm" animated="true" (ionChange)="search()"></ion-searchbar>
+    </div>
+   
+      <ion-img style="width: 35px;padding: 5px;" src="./../assets/icon/loupe.png" (click)="onSeach()"></ion-img>
+      <ion-img style="width: 35px;padding: 5px;" src="./../assets/icon/dots.png"  (click)="onSideMenu()"></ion-img>
+    
+  </div>
+    <!-- <div style="text-align: center;margin: 10px;" *ngIf="isSideMenu">
+      <ion-label (click)="unsbscribe()">Did you want to unsubscribe?</ion-label>
+    </div>
+   -->
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content >
+  
+  <div>
+    <ion-list *ngIf="newDistricts" >
+      <ion-item *ngFor="let district of newDistricts" >
+        <ion-label (click)="tapOn(district)">{{district}}</ion-label>
+      </ion-item>
+    </ion-list>
+    <div *ngIf="!newDistricts" style="margin-top: 100px; text-align: center;">
+      <ion-label  >No any data found</ion-label>
+    </div>
   </div>
 </ion-content>

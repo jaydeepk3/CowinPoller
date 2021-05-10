@@ -24,3 +24,10 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+.my-custom-class .popover-content{
+      top: 5% !important;
+      left: 35% !important;
+      transform-origin: right top !important;
+  }

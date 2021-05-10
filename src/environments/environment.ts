@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: 'https://triangle.net.in/api/',
+  firebaseConfig: {
+    apiKey: "AIzaSyBFdsfgw7NNrlsSpErviquCLFrTev2cWAw",
+    authDomain: "triangle-af869.firebaseapp.com",
+    projectId: "triangle-af869",
+    storageBucket: "triangle-af869.appspot.com",
+    messagingSenderId: "433782949105",
+    appId: "1:433782949105:android:7b89d99b68f3fa53e49550",
+    measurementId: ""
+  }
 };
 
 /*

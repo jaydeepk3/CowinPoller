@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "433782949105",
+    "firebase_url": "https://triangle-af869.firebaseio.com",
+    "project_id": "triangle-af869",
+    "storage_bucket": "triangle-af869.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433782949105:android:5a8e7ff7b4c28e98e49550",
+        "android_client_info": {
+          "package_name": "com.hd.track.triangle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433782949105-10smi92bham3g78k8eh4iod1puib7h8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFdsfgw7NNrlsSpErviquCLFrTev2cWAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433782949105-10smi92bham3g78k8eh4iod1puib7h8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433782949105:android:7b89d99b68f3fa53e49550",
+        "android_client_info": {
+          "package_name": "com.social.covid_vaccine_notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433782949105-10smi92bham3g78k8eh4iod1puib7h8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFdsfgw7NNrlsSpErviquCLFrTev2cWAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433782949105-10smi92bham3g78k8eh4iod1puib7h8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
